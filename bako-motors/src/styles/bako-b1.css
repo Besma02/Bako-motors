@@ -1,0 +1,39 @@
+.bakoB1 h1{
+    font-size: 7em;
+    font-weight: bold;
+    color: #ff9c00;
+    text-align: center;
+}
+.bakoB1 h2{
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 20%;
+    
+}
+.bakoB1 i{
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff9c00;
+    vertical-align: middle;
+    margin-top: 20%;
+    
+}
+
+.bakoblanc{
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    z-index: 3;
+
+}
+.route{
+    width: 100%;
+    margin-top: -7%;
+    z-index: 1;
+}
+ .km{
+    font-size: 3em;
+    font-weight: bold;
+    color: #ff9c00;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+.m1,.m2,.m3{
+    border: 2px solid #ffbe00;
+    border-radius: 5px;
+    margin: 20% 0;
+   
+   
+}
+.m1 img,.m2 img,.m3 img{
+    padding-left: 20%;
+    padding-top: 5%;
+    height: 300px;
+}
+.member h1{
+    color: #ffbe00;
+ font-weight: bold;
+ font-size: 3em;
+ text-align: center;
+ margin-bottom: 2%;
+}
+.member h2{
+    padding-top: 5%;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+
+}
+.member h3{
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+@media only screen and (max-width: 768px) {
+    .m1 img,.m2 img,.m3 img{
+        padding-left: 20%;
+        padding-top: 5%;
+        height: 200px;
+       
+    }
+
+}
+@media only screen and (max-width: 995px) {
+    .m1 img,.m2 img,.m3 img{
+        padding-left: 35%;
+        padding-top: 5%;
+        height: 200px;
+       
+    }
+
+}
