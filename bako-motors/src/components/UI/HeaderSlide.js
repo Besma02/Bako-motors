@@ -38,25 +38,7 @@ const HeaderSlide = () => {
         
     </Container>
     </div>
-     <div className="slider_item slider_item-02">
-     <Container>
-         <div className="slider-content">
-             <h4>Lorem, ipsum dolor.</h4>
- 
-         </div>
-         
-     </Container>
-     </div>
-      <div className="slider_item slider_item-03">
-      <Container>
-          <div className="slider-content">
-              <h4>Lorem, ipsum dolor.</h4>
-  
-          </div>
-          
-      </Container>
-      </div>
-  </Slider>
+     </Slider>
   )
 }
 

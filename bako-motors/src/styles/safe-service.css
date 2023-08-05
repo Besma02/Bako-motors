@@ -1,0 +1,64 @@
+.safeservice{
+    
+    margin:15% 0 0 ;
+    width: 700px;
+    padding: 40px 20px;
+}
+.safeservice h1{
+    color: #ffbe00;
+    font-size: 3.8em;
+    font-weight: bold;
+    padding: 40px 0;
+    margin-bottom: 5%;
+    
+}
+.safeservice img{
+    width: 30%;
+    
+    margin-bottom: 5%;
+    
+}
+
+.safeservice p{
+    line-height: 2em;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+.safeservice button{
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fcbe04;
+    color: #fff;
+     padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    
+ }
+.drive{
+    background:
+    url("../assets/all-images/cars-img/drive.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    max-width: 100%;
+    height: 350px;
+    margin:0 0  ;
+    
+    
+    
+}
+.drive p{
+    position: absolute;
+    top:20%;
+    left: 5%;
+    width: 40%;
+    padding: 20px;
+    line-height: 1.8em;
+    font-size: 1.8em;
+    font-weight:500;
+    
+}
