@@ -16,18 +16,18 @@
       }
       .slider-blog-content h1{
         position: absolute;
-        top:15%;
-        left:60%;
+        top:10%;
+        left:12%;
         font-size: 7.8em;
         color: #fff;
-        font-weight: 500;
+        font-weight: 700;
         width: 60%;
         
       }
       .slider-blog-content h2{
         position: absolute;
-        top:23%;
-        left:68%;
+        top:20%;
+        left:12%;
         padding-top: 5%;
         font-weight: 600;
         font-size: 5.8em;
