@@ -1,0 +1,61 @@
+.carabako{
+    background:linear-gradient(#fff,#e5e6e6) ;
+    margin-bottom: 5%;
+}
+.carabako img{
+    width: 70%;
+    margin-top: 10%;
+}
+.composantB1{
+    margin-top: 15%;
+    margin-left: 25%;
+    width: 50%;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    
+}
+.composantB1 h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 5%;
+    
+}
+.subtitle{
+    
+    color: #b68902;
+    font-size: 1.8em;
+    font-weight: bold;
+     margin-bottom: 5%;
+     margin-left: 10%;
+}
+.bakorun{
+    margin-left: 30%;
+    max-width: 70%;
+    margin-top: 3%;
+  
+  
+}
+.cara{
+    display: flex;
+    margin: 2% 2%;
+   border: 1px solid #b68902;
+   background: #fff;
+    padding: 5px;
+    color:#000;
+    font-weight: bold;
+    border-radius: 50% 0 20%;
+    
+   
+
+    
+}
+.cara .more{
+    width: 10%;
+    height: 10%;
+    margin:0 5%;
+}
+.cara p{
+    
+    margin-top: 2%;
+}
+

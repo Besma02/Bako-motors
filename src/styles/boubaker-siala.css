@@ -1,0 +1,127 @@
+.boubakerSiala {
+    //background: url("../assets/all-images/bg.png") top no-repeat;
+    background-size: cover;
+    background-color:rgb(240, 237, 237);
+    margin-top: -20%;
+    height: 700px;
+    max-height: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bakonoir {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    right:70%;
+}
+
+.description p {
+    position: absolute;
+    top: 20%;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.8em;
+    width: 60%;
+    right: 5%;
+}
+.description h1 {
+    font-weight: bold;
+    color: #ffbe00;
+    font-size: 3.8em;
+}
+.description button {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    background: #fff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ↓↓↓ Responsive Styles ↓↓↓ */
+
+/* Écran ≤ 1030px */
+@media only screen and (max-width: 1030px) {
+    .description p {
+        font-size: 1.6em;
+    }
+}
+
+/* Écran ≤ 990px */
+@media only screen and (max-width: 990px) {
+    .bakonoir {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Écran ≤ 786px (tablette / petit laptop) */
+@media only screen and (max-width: 786px) {
+    .boubakerSiala {
+        height: 600px;
+    }
+
+    .bakonoir {
+        width: 250px;
+        height: 250px;
+        top: 15%;
+    }
+    .description h1 {
+        font-size: 2.6rem;
+        margin-top:20%;
+         margin-left:10%
+    }
+    .description p {
+        top: 30%;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        width: 60%;
+    }
+
+    .description button {
+        top: 65%;
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+}
+
+/* Écran ≤ 580px (smartphones) */
+@media only screen and (max-width: 580px) {
+    .boubakerSiala {
+        height: 500px;
+    }
+
+    .bakonoir {
+        width: 200px;
+        height: 200px;
+        top: 10%;
+    }
+
+    .description p {
+        font-size: 1rem;
+        width: 80%;
+        top: 35%;
+    }
+
+    .description button {
+        top: 75%;
+        font-size: 0.85rem;
+        padding: 8px 14px;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .bakonoir {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .bakonoir {
+        display: none;
+    }
+}

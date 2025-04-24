@@ -1,0 +1,119 @@
+.safeservice{
+    
+    margin:15% 0 0 ;
+    width: 700px;
+    padding: 40px 20px;
+}
+.safeservice h1{
+    color: #ffbe00;
+    font-size: 3.8em;
+    font-weight: bold;
+    padding: 40px 0;
+    margin-bottom: 5%;
+    
+}
+img {
+       display:block;
+
+        width: 50%;
+        margin-left: 50%;
+        margin-top: 5%;
+        margin-bottom: 10%; 
+      
+   
+}
+
+
+.safeservice p{
+    line-height: 2em;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
+}
+.safeservice button{
+    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fcbe04;
+    color: #fff;
+     padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+   
+    
+ }
+.drive{
+    background:
+    url("../assets/all-images/cars-img/drive.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    max-width: 100%;
+    height: 350px;
+    margin:0 0  ;
+    
+}
+.drive p{
+    position: absolute;
+    top:20%;
+    left: 5%;
+    width: 50%;
+    padding: 20px;
+    line-height: 1.8em;
+    font-size: 1.8em;
+    font-weight:bold;
+    
+}
+
+  @media (max-width: 767px) {
+    .safeservice {
+      width: 90%;
+      margin: 10% auto 0;
+      padding: 20px 10px;
+      text-align: left;
+    }
+  
+    .safeservice h1 {
+      font-size: 2em;
+      padding: 20px 0;
+    }
+  
+   
+  
+    .safeservice p {
+      font-size: 1rem;
+      line-height: 1.6em;
+    }
+  
+    .safeservice button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin-top: 20px;
+      width:100%
+    }
+  img{
+        display:block;
+        margin:30px auto;
+        width:100%
+       
+
+    }
+  
+    .drive {
+      height: auto;
+      padding-bottom: 20px;
+      background:none
+    }
+  
+    .drive p {
+      position: static;
+      width: 90%;
+      margin: 20px auto 0;
+      font-size: 1.2em;
+      text-align: center;
+      line-height: 1.6em;
+    }
+  }
+    

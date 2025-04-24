@@ -1,0 +1,125 @@
+.bako-content {
+    width: 600px;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.bako-content h2 {
+    font-weight: 400;
+    font-size: 2.8em;
+}
+
+.bako-content h1 {
+    font-weight: bold;
+    color: #ffbe00;
+    font-size: 3.8em;
+}
+
+.bako-content p {
+    line-height: 2em;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.Siala {
+    margin-left: 50%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    max-width: 100%;
+    height: 400px;
+}
+
+.title i {
+    color: #ffbe00;
+    font-weight: bold;
+    font-size: 3em;
+    vertical-align: middle;
+}
+
+.title h1 {
+    margin-bottom: 20%;
+    font-weight: bold;
+    font-size: 3.2em;
+    vertical-align: middle;
+}
+
+/* Grand écran (jusqu'à 1200px) */
+@media only screen and (max-width: 1200px) {
+    .title h1 {
+        font-size: 2.8em;
+    }
+
+    .bako-content {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Siala {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+/* Tablette */
+@media only screen and (max-width: 993px) {
+    .title h1 {
+        font-size: 2.2em;
+    }
+
+    .bako-content h1 {
+        font-size: 3em;
+    }
+
+    .bako-content h2 {
+        font-size: 2em;
+    }
+
+    .bako-content p {
+        font-size: 1rem;
+    }
+
+    .Siala {
+        height: auto;
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+    .bako-content {
+        width: 90%;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .bako-content h1 {
+        font-size: 2.2em;
+    }
+
+    .bako-content h2 {
+        font-size: 1.5em;
+    }
+
+    .bako-content p {
+        font-size: 0.95rem;
+    }
+
+    .title h1 {
+        font-size: 1.8em;
+        margin-bottom: 10%;
+    }
+
+    .title i {
+        font-size: 2em;
+    }
+
+    .Siala {
+        height: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
